@@ -36,7 +36,7 @@ export const Home = () => {
                         Categoryarray?.map((product,index)=>(
                             <div key={index} className="col-md-3">
                                 <div className="card">
-                                    <img src={product.image} className="card-img-top" alt="..."/>
+                                    <img src={product.image} className="card-img-top img-fluid" alt="..."/>
                                     <div class="card-body">
                                         <h5 class="card-title">{product.name}</h5>
                                     </div>
